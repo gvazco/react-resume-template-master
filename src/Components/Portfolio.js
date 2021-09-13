@@ -30,7 +30,7 @@ class Portfolio extends Component {
       <section id="portfolio">
         <div className="row">
           <div className="twelve columns collapsed">
-            <h1>Estos son algunos de nuestros clientes:</h1>
+            <h1>Nuestros clientes:</h1>
 
             <div
               id="portfolio-wrapper"
