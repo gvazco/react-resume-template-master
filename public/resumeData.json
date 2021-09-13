@@ -15,11 +15,11 @@
       "zip": "55555"
     },
     "website": "http://www.transporteylogisticahrv.com",
-    "resumedownload": "http://timbakerdev.com",
+    "resumedownload": "https://drive.google.com/file/d/11unLXqIGp5fEYpkDLzXDea8kgP-SQ4Wc/view?usp=sharing",
     "social": [
       {
         "name": "facebook",
-        "url": "http://facebook.com/tim.baker.906",
+        "url": "http://facebook.com/",
         "className": "fa fa-facebook"
       },
       {
@@ -29,12 +29,12 @@
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url": "https://www.linkedin.com/",
         "className": "fa fa-linkedin"
       },
       {
         "name": "instagram",
-        "url": "http://instagram.com/tbaker_x",
+        "url": "http://instagram.com/",
         "className": "fa fa-instagram"
       }
      
@@ -42,23 +42,29 @@
   },
   "resume": {
     "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
-    "education": [
+    "services": [
       {
-        "school": "University?",
-        "degree": "Masters in Beer tasting",
-        "graduated": "April 2007",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "CHEVROLET 2003",
+        "degree": "Plataforma 6.50 mts.",
+        "graduated": "3.5 TON. (Carga máxima).",
+        "description": "Lorem impsum dolor sit amet consecutur, Lorem impsum dolor sit amet consecutur, Lorem impsum dolor sit amet consecutur."
       },
       {
-        "school": "School #1 Maybe College?",
-        "degree": "What did you study 101",
-        "graduated": "March 2003",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "DODGE 1985",
+        "degree": "Plataforma 6.50 mts.",
+        "graduated": "12 TON. (Carga máxima).",
+        "description": "Lorem impsum dolor sit amet consecutur, Lorem impsum dolor sit amet consecutur, Lorem impsum dolor sit amet consecutur."
+      },
+      {
+        "school": "INTERNACIONAL 2014",
+        "degree": "Plataforma 8 mts.",
+        "graduated": "13 TON. (Carga máxima).",
+        "description": "Lorem impsum dolor sit amet consecutur, Lorem impsum dolor sit amet consecutur, Lorem impsum dolor sit amet consecutur."
       }
     ],
     "work": [
       {
-        "company": "Awesome Design Studio",
+        "company": "Vigas de Acero",
         "title": "Senior UX God ",
         "years": "March 2010 - Present",
         "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
@@ -72,77 +78,56 @@
     ],
     "skills": [
       {
-        "name": "Git",
-        "level": "60%"
+        "name": "velocidad",
+        "level": "70%"
       },
       {
-        "name": "Illustrator",
-        "level": "55%"
-      },
-      {
-        "name": "ReactJs",
-        "level": "50%"
-      },
-      {
-        "name": "CSS",
-        "level": "90%"
-      },
-      {
-        "name": "HTML5",
+        "name": "Manejo de Materiales",
         "level": "80%"
       },
       {
-        "name": "VueJs",
-        "level": "50%"
-      },
-      {
-        "name": "MongoDB",
-        "level": "80%"
+        "name": "Nivel de Confianza",
+        "level": "95%"
       }
+      
     ]
   },
   "portfolio": {
     "projects": [
       {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
+        "title": "Multycasetas",
+        "category": "Fabricantes de casetas de lámina y multypanel.",
         "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com"
+        "url": "https://www.multycasetas.com/"
       },
       {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
+        "title": "Molduras de Lámina",
+        "category": "Fabricantes de accesorios y molduras de lámina..",
         "image": "fury-fighting-gear.jpg",
-        "url": "http://www.timbakerdev.com"
+        "url": "https://moldurasdelamina.com/"
       },
       {
-        "title": "Original Thai Food",
+        "title": "Multypanel y Lámina",
         "category": "Website I built for a restaurant I like in Thailand",
         "image": "original-thai-food.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+        "url": "https://www.laminasmultipanel.mx"
       },
       {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
+        "title": "Techos y Mantenimientos | Mevasa",
+        "category": "Especialistas en naves y cubiertas industriales.",
         "image": "resume-website.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "smirkspace.jpg",
-        "url": "http://www.smirkspace.com"
+        "url": "http://www.techosymantenimeintos.com"
       }
     ]
   },
   "testimonials": {
     "testimonials": [
       {
-        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user": "Kareem Abdul Jabbar"
+        "text": "Excelente servicio, mis materiales siempre llegan a tiempo y en buen estado. Su gente es amable y muy servicial.",
+        "user": "David Vázquez Meza | CEO Mevasa"
       },
       {
-        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "text": "Excelente servicio, mis materiales siempre llegan a tiempo y en buen estado. Su gente es amable y muy servicial.",
         "user": "Steve Wozniak... impersonator"
       }
     ]

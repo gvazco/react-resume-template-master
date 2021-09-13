@@ -140,6 +140,7 @@ header .scrolldown a:hover { color: #11ABB0; }
    position: fixed;
    left: 0;
    top: 0;
+   background-color:rgb(0,0,0,0.8);
 }
 .opaque { background-color: #333; }
 
@@ -239,7 +240,7 @@ ul#nav li.current a { color: #F06000; }
 #resume {
    background: #fff;
    padding-top: 90px;
-   padding-bottom: 72px;
+   /* padding-bottom: 72px; */
    overflow: hidden;
 }
 
@@ -419,16 +420,16 @@ ul#nav li.current a { color: #F06000; }
 
 #portfolio {
    background: #ebeeee;
-   padding-top: 90px;
+   /* padding-top: 90px; */
    padding-bottom: 60px;
 }
 #portfolio h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
+   font: 20px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
-   color: #95A3A3;
+   color: #000;
 }
 
 /* Portfolio Content */
@@ -646,7 +647,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+   background: #1F1F1F url(../images/header-background.gif) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
@@ -684,7 +685,7 @@ call-to-action .button {
    margin: 0 0px 30px 0px;
    padding-left: 0;
    position: relative;
-   text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
+   text-shadow: 0px 1px 3px rgba(0, 0, 0, .5);
 }
 #testimonials blockquote:before { content: none; }
 #testimonials blockquote p {
@@ -692,14 +693,14 @@ call-to-action .button {
    padding: 0;
    font-size: 24px;
    line-height: 48px;
-   color: #fff
+   color: #000
 }
 #testimonials blockquote cite {
    display: block;
    font-size: 12px;
    font-style: normal;
    line-height: 18px;
-   color: #fff;
+   color: #000;
 }
 #testimonials blockquote cite:before { content: "\2014 \0020"; }
 #testimonials blockquote cite a,
