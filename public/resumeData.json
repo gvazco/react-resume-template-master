@@ -1,20 +1,20 @@
 {
   "main": {
-    "name": "Tim Baker",
-    "occupation": "(Your Occupation Here)",
-    "description": "Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "name": "Transporte & Logística HRV",
+    "occupation": "Transporte de Carga en General",
+    "description": "servicios integrales logísticos a cualquier punto de la República Mexicana",
     "image": "profilepic.jpg",
-    "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio": "Transportes & Logistica HRV es una empresa que ofrecer servicios de Transporte de Carga en General y servicios integrales logísticos, a cualquier punto de la República Mexicana.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "email": "fletesylogisticaHRV@gmail.com",
+    "phone": "56 2149-9655",
     "address": {
-      "street": "(Your Street)",
-      "city": "(Your City)",
-      "state": "(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street": "Av. Hipódromo #16, San Miguel Xochimanga",
+      "city": "Atizapan de Zaragoza",
+      "state": "EdoMéx.",
+      "zip": "55555"
     },
-    "website": "http://www.timbakerdev.com",
+    "website": "http://www.transporteylogisticahrv.com",
     "resumedownload": "http://timbakerdev.com",
     "social": [
       {
@@ -36,12 +36,8 @@
         "name": "instagram",
         "url": "http://instagram.com/tbaker_x",
         "className": "fa fa-instagram"
-      },
-      {
-        "name": "github",
-        "url": "http://github.com/tbakerx",
-        "className": "fa fa-github"
       }
+     
     ]
   },
   "resume": {
