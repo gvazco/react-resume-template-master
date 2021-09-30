@@ -176,9 +176,7 @@
       return false;
    });
 
-    var IconWhatsapp = document.querySelector('#icon-whatsapp');
-	var formulariowtsp = document.getElementById('formulariowtsp');
-	var closemodal = document.querySelector('.closemodal');
+    
 	var sendbttn = document.querySelector('#sendbttn');
 
 
@@ -199,8 +197,8 @@
 		let email = document.querySelector('#email').value;
 		let subject = document.querySelector('#subject').value;
 		
-		let url = "https://api.whatsapp.com/send?phone=5626076270&text=Nombre: %0A" + name + "%0A%0AEmail: %0A" + email + "%0A%0AAsunto: %0A" + subject + "%0A";
-		window.open(url);
+		let url = "https://api.whatsapp.com/send?phone=525626076270&text=Nombre: %0A" + name + "%0A%0AEmail: %0A" + email + "%0A%0AAsunto: %0A" + subject + "%0A";
+		window.open(url); 
 
 	}
 
