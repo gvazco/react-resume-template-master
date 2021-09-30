@@ -18,7 +18,7 @@ class Footer extends Component {
       <footer>
         <div className="row">
           <div className="twelve columns">
-            <ul className="social-links">{networks}</ul>
+            {/* <ul className="social-links">{networks}</ul> */}
 
             <ul className="copyright">
               <li>&copy; Copyright 2021 Transporte y Logística HRV</li>

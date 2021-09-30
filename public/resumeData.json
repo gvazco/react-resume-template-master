@@ -1,11 +1,12 @@
 {
   "main": {
     "name": "Transporte & Logística HRV",
-    "occupation": "Transporte de Carga en General",
-    "description": "servicios integrales logísticos a cualquier punto de la República Mexicana",
+    "occupation": "Transporte de carga pesada",
+    "description": "servicios logísticos en general con atención a toda la República Mexicana",
     "image": "profilepic.jpg",
-    "bio": "Transportes & Logistica HRV es una empresa que ofrecer servicios de Transporte de Carga en General y servicios integrales logísticos, a cualquier punto de la República Mexicana.",
-    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "logotipo":"logotipo.png",
+    "bio": "Con amplia experiencia, ofrecemos servicios de transporte de carga pesada y logística en general, con atención a toda la República Mexicana.",
+    "contactmessage": "Envía tu mensaje por WhatsApp",
     "email": "fletesylogisticaHRV@gmail.com",
     "phone": "56 2149-9655",
     "address": {
@@ -21,23 +22,7 @@
         "name": "facebook",
         "url": "http://facebook.com/",
         "className": "fa fa-facebook"
-      },
-      {
-        "name": "twitter",
-        "url": "http://twitter.com",
-        "className": "fa fa-twitter"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/",
-        "className": "fa fa-linkedin"
-      },
-      {
-        "name": "instagram",
-        "url": "http://instagram.com/",
-        "className": "fa fa-instagram"
       }
-     
     ]
   },
   "resume": {
