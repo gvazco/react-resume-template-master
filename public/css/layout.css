@@ -1053,52 +1053,14 @@ input[type="submit"]:hover{
 	transform: scale(0.8);
 	}*/
 
-	.formulariowtsp{
 
-		width: 100%;
-		margin:0 auto;
-		border-radius: 5px;
-		position: relative;
-		bottom: 65px;
-		box-shadow: 0 2px 20px 0 rgba(0,0,0,0.22);
-		background:rgba(255,255,255,0.1);
-		padding: 20px;
-
-	}
-
-	.inputwts{
-		width: 100%;
-		box-sizing: border-box;
-		padding: 5px;
-		margin-bottom: 10px;
-		font-family: arial;
-		font-size: 13px;
-		border-radius: 5px;
-		border:1px solid rgba(0,0,0,0.19);
-		color: #666;
-
-
-	}
+	
 
 	.inputwts:focus{
 		outline: none;
 	}
 
-	.textareawts{
-		width: 100%;
-		min-width: 100%;
-		box-sizing: border-box;
-		height: 140px;
-		max-height: 140px;
-		min-height: 140px;
-		font-family: arial;
-		font-size: 13px;
-		border-radius: 5px;
-		padding: 5px;
-		border:1px solid rgba(0,0,0,0.19);
-		color: #666;
-
-	}
+	
 
 	.textareawts:focus{
 		outline: none;
