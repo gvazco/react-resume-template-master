@@ -51,12 +51,18 @@ header .banner {
    display: inline-block;
    vertical-align: middle;
    margin: 0 auto;
-   width: 85%;
-   padding-bottom: 30px;
+   width: 800px;
+   max-width: 80%;
+   padding-bottom: 10px;
    text-align: center;
+   -webkit-backdrop-filter: blur(8px);  /* Safari 9+ */
+   backdrop-filter: blur(8px); /* Chrome and Opera */
+   box-shadow: 0px 10px 15px 10px rgb(0 0 0 / 15%);
+   background-color: rgb(228 228 228 / 15%);
 }
 
 header .banner-text { width: 100%; }
+header .banner .logotipo {margin: 30px 0 10px 0}
 header .banner-text h1 {
    font: 90px/1.1em 'opensans-bold', sans-serif;
    color: #fff;
@@ -65,7 +71,7 @@ header .banner-text h1 {
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
-   font: 20px/1.9em 'librebaskerville-regular', serif;
+   font: 20px/1.9em 'opensans-bold', sans-serif;
    color: #fff;
    margin: 0 auto;
    width: 70%;
@@ -984,6 +990,133 @@ footer .social-links li {
 
 footer .social-links li:first-child { margin-left: 0; }
 
+form{
+	width: 70%;
+	margin:0 auto;
+}
+
+form label{
+	font-size: 1.5rem;
+}
+
+input,
+select,
+textarea{
+	width: 97%;
+	padding: 1.5rem;
+	margin-bottom: 1rem;
+	border: 0.1rem solid black;
+	outline-color: #fd57bf;
+	font-size: 1.8rem;
+}
+
+select#service{
+	width: 101%;
+}
+
+input[type="submit"]{
+	width: initial;
+	background-color: #fd57bf;
+	color: #eee;
+	padding: 1rem 2rem;
+	border-radius: .8rem;
+	cursor: pointer;
+	transition: background-color 650ms;
+}
+
+input[type="submit"]:hover{
+	color: #221e3f;
+	background-color: #ffe838;
+}
+
+
+/*Api WhatsApp*/
+
+.image-icon-whatsapp{
+	bottom: 20px;
+	right: 20px;
+	cursor: pointer;
+	transition: all 0.2s;
+	position: absolute;
+	top: 85%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 12rem;
+	text-align: center;
+	z-index: 1;
+}
+
+/*.image-icon-whatsapp:hover{
+	transform: scale(0.9);
+}
+.image-icon-whatsapp:active{
+	transform: scale(0.8);
+	}*/
+
+
+	
+
+	.inputwts:focus{
+		outline: none;
+	}
+
+	
+
+	.textareawts:focus{
+		outline: none;
+	}
+
+	.newmessagewts{
+		font-family: arial;
+		display: block;
+		text-align: center;
+		width: 100%;
+		box-sizing: border-box;
+		line-height: 10px;
+		color: black;
+	}
+	.btnwtsp{
+		position: relative;
+		display: inline-block;
+		left: 25%;
+		width: 50%;
+		border: none;
+		padding: 12px 36px;
+		letter-spacing: 2px;
+		margin-top: 10px;
+		color: white;
+		cursor: pointer;
+		font-size: 2rem;
+
+		animation: pulse 3s infinite;
+
+		border-radius: 40px;
+		background:#f04900;
+	}
+
+	#icon-wts:hover{
+		color:white;
+	}
+
+	.btnwtsp:hover{
+		background:#f0480060;
+   }
+
+   /*Start animations*/
+	@keyframes pulse{
+		0%{
+			box-shadow: 0 0 0 0 rgba(246, 94, 34, 0.99);
+		}
+		70%{
+			box-shadow: 0 0 0 2rem rgba(253, 87, 191, 0);
+		}
+		100%{
+			box-shadow: 0 0 0 0 rgba(253, 87, 191, 0);
+		}
+	}
+	/*End animations*/
+	
+
 /* Go To Top Button */
 #go-top {
 	position: absolute;
@@ -1010,4 +1143,4 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
+#go-top a:hover { background-color: #f04900; }

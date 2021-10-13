@@ -3,23 +3,14 @@ import React, { Component } from "react";
 class Header extends Component {
   render() {
     if (this.props.data) {
-      var name = this.props.data.name;
+      var logotipo = "images/" + this.props.data.logotipo;
       var occupation = this.props.data.occupation;
       var description = this.props.data.description;
-      var networks = this.props.data.social.map(function (network) {
-        return (
-          <li key={network.name}>
-            <a href={network.url}>
-              <i className={network.className}></i>
-            </a>
-          </li>
-        );
-      });
     }
 
     return (
       <header id="home">
-        <nav id="nav-wrap">
+        {/* <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
             Mostrar
           </a>
@@ -35,40 +26,26 @@ class Header extends Component {
             </li>
             <li>
               <a className="smoothscroll" href="#about">
-                Nosotros
+                Contacto
               </a>
             </li>
-            <li>
-              <a className="smoothscroll" href="#resume">
-                Servicios
-              </a>
-            </li>
-            <li>
-              <a className="smoothscroll" href="#portfolio">
-                Clientes
-              </a>
-            </li>
-            <li>
-              <a className="smoothscroll" href="#testimonials">
-                Testimoniales
-              </a>
-            </li>
+
             <li>
               <a className="smoothscroll" href="#contact">
                 Contacto
               </a>
             </li>
           </ul>
-        </nav>
+        </nav> */}
 
         <div className="row banner">
           <div className="banner-text">
-            <h1 className="responsive-headline">{name}</h1>
+            <img className="logotipo" src={logotipo} alt="HRV-Logotipo" />
             <h3>
               <span>{occupation}</span> y {description}.
             </h3>
             <hr />
-            <ul className="social">{networks}</ul>
+            {/* <ul className="social">{networks}</ul> */}
           </div>
         </div>
 
